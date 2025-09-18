@@ -1,0 +1,20 @@
+[project]
+name = "aula03"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ds-borges",email = "diego97sousa@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipython (>=9.5.0,<10.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
